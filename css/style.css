@@ -155,10 +155,11 @@ color: rgba(73, 80, 87, 0.5);
     flex-grow: 1;
     position: relative;
     padding-bottom: 15px;
+    border-bottom: 1px solid rgba(229, 229, 229, 1);
     
 }
 
-.item-portfolio__description::after {
+/* .item-portfolio__description::after {
     content: "";
     border: 1px solid #E5E5E5;
     position: absolute;
@@ -166,7 +167,7 @@ color: rgba(73, 80, 87, 0.5);
     left: 0;
     bottom: 0;
 
-}
+} */
 
 .item-portfolio__autor:hover {
    color:#5294d7 ;
